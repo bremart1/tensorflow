@@ -63,6 +63,9 @@ RUN pip --no-cache-dir install \
         scipy \
         sklearn \
         pandas \
+	imageio \
+	scikit-image \
+	scikit-learn \
         && \
     python -m ipykernel.kernelspec
 
